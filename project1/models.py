@@ -145,6 +145,6 @@ class Personal_info(models.Model):
     whatsapp=models.IntegerField
     def __str__(self):
         return self.student
-from django.db import models
+
 
 # Create your models here.
